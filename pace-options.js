@@ -1,10 +1,7 @@
 // @ts-ignore
 window.paceOptions = {
   document: true, // disabled
-  eventLag: {
-    lagThreshold: 12
-  },
-  restartOnPushState: true,
+  restartOnPushState: false,
   restartOnRequestAfter: 500,
   ajax: {
     trackMethods: ['POST', 'GET', 'PUT', 'DELETE', 'OPTIONS']
