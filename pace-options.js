@@ -5,7 +5,7 @@ window.paceOptions = {
     lagThreshold: 12
   },
   restartOnPushState: true,
-  restartOnRequestAfter: false,
+  restartOnRequestAfter: 250,
   ajax: {
     trackMethods: ['POST', 'GET', 'PUT', 'DELETE']
   }
